@@ -1,0 +1,147 @@
+/* Navbar styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+}
+
+.nav-logo {
+    color: #222;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-logo:hover {
+    color: #01959a;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+.nav-link i {
+    padding-right: 8px;
+}
+
+.nav-link:hover {
+    color: white;
+    background: #01959a;
+    transition: all 0.2s ease-in-out;
+}
+
+.lang {
+    font-size: 1.2rem;
+    color: #01959a;
+}
+
+.lang select {
+    font-size: 1rem;
+    color: #01959a;
+}
+
+.menu-icons {
+    display: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.menu-icons:hover {
+    color: #01959a;
+}
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        top: 20;
+        z-index: 99;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        background: #fff;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -150%;
+        opacity: 0;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        border-radius: 13px;
+        transition: all 0.3s ease-in-out;
+        z-index: -1;
+
+    }
+
+    .active {
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    .nav-link {
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    .nav-link:hover {
+        transition: none;
+        background: #01959a;
+    }
+
+    .lang {
+        margin: 0;
+        align-self: center;
+        width: 30%;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        padding: 0.2rem 0.5rem;
+
+    }
+
+    .lang select {
+        width: 70%;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+
+    .menu-icons {
+        display: flex;
+        font-size: 1.5rem;
+    }
+
+}

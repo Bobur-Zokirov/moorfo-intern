@@ -1,0 +1,15 @@
+{
+    "navbar-menu": {
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "contact": "Contact"
+    },
+    "home": {
+        "body": "A store designed for all your pet"
+    },
+    "menuItems" : {
+        "title": "Home"
+    }
+
+}

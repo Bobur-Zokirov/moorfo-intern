@@ -1,0 +1,16 @@
+{
+    "navbar-menu": {
+        "home": "Asosiy",
+        "about": "Biz haqimizda",
+        "service": "Xizmatlar",
+        "contact": "Bog'lanish"
+    },
+    "home": {
+        "body": "Barcha uy hayvonlari uchun mo'ljallangan do'kon"
+    },
+    "menuItems" : {
+        "title": "Asosiy"
+    }
+    
+
+}
