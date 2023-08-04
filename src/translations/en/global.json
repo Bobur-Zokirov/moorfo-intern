@@ -5,11 +5,64 @@
         "service": "Service",
         "contact": "Contact"
     },
-    "home": {
-        "body": "A store designed for all your pet"
+
+    "hero": {
+        "title": {
+            "home": "Your journey your life",
+            "about": "About",
+            "service": "Services"
+        },
+        "text": "Choose your favourite destination",
+        "btnText": "Travel plan"
     },
-    "menuItems" : {
-        "title": "Home"
+
+    "destinations": {
+        "title": "Popular Destinations",
+        "subtitle": "Tours give you the opportunity to see a lot, within a time frame",
+        "heading": {
+            "des1": "What is Lorem Ipsum!",
+            "des2": "Taal Volcano, Batangas"
+        },
+        "text": {
+            "des1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. PageMaker including versions of Lorem Ipsum.",
+            "des2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+        }
+    },
+
+    "trips": {
+        "heading": "Recent Trips",
+        "subheading": "You can discover unique destinations using Google Maps",
+
+        "trip1": {
+            "title": "Trip in Indonesia",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae, facilis ratione vel laboriosam accusamus! numquam iure magnam voluptatem iste laborum vel fugit ipsum! Consequuntur, ducimus!"
+        },
+
+        "trip2": {
+            "title": "Trip in Malaysia",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae, facilis ratione vel laboriosam accusamus! numquam iure magnam voluptatem iste laborum vel fugit ipsum! Consequuntur, ducimus!"
+        },
+
+        "trip3": {
+            "title": "Trip in Frnace",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae, facilis ratione vel laboriosam accusamus! numquam iure magnam voluptatem iste laborum vel fugit ipsum! Consequuntur, ducimus!"
+        }
+    },
+
+    "about": {
+        "history": {
+            "title": "Company History",
+            "text": "There is much more to learn about browser scripts and their interaction with the webpage. But let’s keep in mind that this part of the tutorial is devoted to the JavaScript language, so we shouldn’t distract ourselves with browser-specific implementations of it. We’ll be using the browser as a way to run JavaScript, which is very convenient for online reading, but only one of many.!"
+        },
+        "mission": {
+            "title": "Our Mission",
+            "text": "There is much more to learn about browser scripts and their interaction with the webpage. But let’s keep in mind that this part of the tutorial is devoted to the JavaScript language, so we shouldn’t distract ourselves with browser-specific implementations of it. We’ll be using the browser as a way to run JavaScript, which is very convenient for online reading, but only one of many.!"
+        },
+        "vision": {
+            "title": "Our Vision",
+            "text": "There is much more to learn about browser scripts and their interaction with the webpage. But let’s keep in mind that this part of the tutorial is devoted to the JavaScript language, so we shouldn’t distract ourselves with browser-specific implementations of it. We’ll be using the browser as a way to run JavaScript, which is very convenient for online reading, but only one of many.!"
+        }
     }
+
 
 }

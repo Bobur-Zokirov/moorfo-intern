@@ -5,11 +5,62 @@
         "service": "Xizmatlar",
         "contact": "Bog'lanish"
     },
-    "home": {
-        "body": "Barcha uy hayvonlari uchun mo'ljallangan do'kon"
+    "hero": {
+        "title": {
+            "home": "Sizning sayohatingiz sizning hayotingiz",
+            "about": "Biz haqimizda",
+            "service": "Bizning xizmatlarimiz"
+        },
+        "text": "Sevimli manzilingizni tanlang",
+        "btnText": "Sayohat rejasi"
     },
-    "menuItems" : {
-        "title": "Asosiy"
+
+    "destinations": {
+        "title": "Mashhur yo'nalishlar",
+        "subtitle": "Ekskursiyalar sizga vaqt oralig'ida ko'p narsalarni ko'rish imkoniyatini beradi",
+        "heading": {
+            "des1": "Lorem Ipsum nima!",
+            "des2": "Taal uvlqoni, Batangas"
+        },
+        "text": {
+            "des1": "Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir. Lorem Ipsum 1500-yillardan beri sanoatning standart qo'g'irchoq matni bo'lib kelgan, o'shandan beri noma'lum printer galleyni olib, kitob namunasini yaratish uchun shifrlagan. U nafaqat besh asr davomida, balki elektron terishga sakrashdan ham omon qoldi va deyarli o'zgarishsiz qoldi. PageMaker, shu jumladan Lorem Ipsum versiyalari.",
+            "des2": "O'quvchi sahifaning tartibini ko'rib chiqayotganda uning o'qilishi mumkin bo'lgan mazmuni bilan chalg'itishi uzoq vaqtdan beri tasdiqlangan haqiqatdir. Lorem Ipsum-dan foydalanishning mohiyati shundaki, u Tarkib bu erda, kontent bu erda dan farqli o'laroq, harflarning ko'proq yoki kamroq normal taqsimlanishiga ega bo'lib, uni ingliz tilida o'qilishi mumkin bo'lgan holga keltiradi. Ko'pgina ish stoli nashriyot paketlari va veb-sahifa muharrirlari endi standart model matni sifatida Lorem Ipsum-dan foydalanadilar va so'zini qidirish hali boshlang'ich bosqichidagi ko'plab veb-saytlarni ochib beradi."
+        }
+    },
+
+    "trips": {
+        "heading": "So'nggi sayohatlar",
+        "subheading": "Google Xaritalar yordamida noyob yo'nalishlarni topishingiz mumkin",
+
+        "trip1": {
+            "title": "Indoneziyaga sayohat",
+            "text": "Lorem Ipsum-dan foydalanishning mohiyati shundaki, u Tarkib bu erda, kontent bu erda dan farqli o'laroq, harflarning ko'proq yoki kamroq normal taqsimlanishiga ega bo'lib, uni ingliz tilida o'qilishi mumkin bo'lgan holga keltiradi."
+        },
+
+        "trip2": {
+            "title": "Malayziyaga sayohat",
+            "text": "Lorem Ipsum-dan foydalanishning mohiyati shundaki, u Tarkib bu erda, kontent bu erda dan farqli o'laroq, harflarning ko'proq yoki kamroq normal taqsimlanishiga ega bo'lib, uni ingliz tilida o'qilishi mumkin bo'lgan holga keltiradi."
+        },
+
+        "trip3": {
+            "title": "Frantsiyaga sayohat",
+            "text": "Lorem Ipsum-dan foydalanishning mohiyati shundaki, u Tarkib bu erda, kontent bu erda dan farqli o'laroq, harflarning ko'proq yoki kamroq normal taqsimlanishiga ega bo'lib, uni ingliz tilida o'qilishi mumkin bo'lgan holga keltiradi."
+        }
+    },
+
+    "about": {
+        "history": {
+            "title": "Kompaniya Tarixi",
+            "text": "Brauzer skriptlari va ularning veb-sahifa bilan o'zaro ta'siri haqida ko'proq ma'lumot olish mumkin. Ammo shuni yodda tutingki, o'quv qo'llanmasining ushbu qismi JavaScript tiliga bag'ishlangan, shuning uchun biz o'zimizni brauzerga xos ilovalar bilan chalg'itmasligimiz kerak. Biz brauzerdan JavaScript-ni ishga tushirish usuli sifatida foydalanamiz, bu onlayn o'qish uchun juda qulay, lekin ko'pchilikdan faqat bittasi!"
+        },
+        "mission": {
+            "title": "Bizning Missiya",
+            "text": "Brauzer skriptlari va ularning veb-sahifa bilan o'zaro ta'siri haqida ko'proq ma'lumot olish mumkin. Ammo shuni yodda tutingki, o'quv qo'llanmasining ushbu qismi JavaScript tiliga bag'ishlangan, shuning uchun biz o'zimizni brauzerga xos ilovalar bilan chalg'itmasligimiz kerak. Biz brauzerdan JavaScript-ni ishga tushirish usuli sifatida foydalanamiz, bu onlayn o'qish uchun juda qulay, lsekin ko'pchilikdan faqat bittasi."
+        },
+        "vision": {
+            "title": "Bizning Maqsad",
+            "text": "Brauzer skriptlari va ularning veb-sahifa bilan o'zaro ta'siri haqida ko'proq ma'lumot olish mumkin. Ammo shuni yodda tutingki, o'quv qo'llanmasining ushbu qismi JavaScript tiliga bag'ishlangan, shuning uchun biz o'zimizni brauzerga xos ilovalar bilan chalg'itmasligimiz kerak. Biz brauzerdan JavaScript-ni ishga tushirish usuli sifatida foydalanamiz, bu onlayn o'qish uchun juda qulay, lekin ko'pchilikdan faqat bittasi."
+        }
     }
     
 
