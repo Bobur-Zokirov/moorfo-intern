@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <Link to="home" className="nav-logo">
+      <Link to="/" className="nav-logo">
         Moorfo
       </Link>
 
